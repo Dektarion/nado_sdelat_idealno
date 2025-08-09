@@ -56,7 +56,7 @@ html {
 }
 
 .page__title:hover::before {
-  content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
+  content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.'; /* \A - перенос строки в CSS*/
   position: absolute;
   top: 180px;
   right: 20px;
